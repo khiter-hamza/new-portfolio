@@ -1,6 +1,6 @@
 'use client';
 import { motion } from 'framer-motion';
-import { User } from 'lucide-react';
+import Image from 'next/image';
 import { slideInLeft, slideInRight, fadeUp } from '@/lib/animations';
 import StatsGrid from './StatsGrid';
 
@@ -72,14 +72,19 @@ export default function AboutSection() {
           className="relative flex justify-center"
         >
           <div className="relative group">
-            {/* Placeholder Rectangle */}
-            <div className="w-[320px] h-[420px] bg-[#111] border-2 border-dashed border-[#6c63ff]/30 rounded-[2rem] flex flex-col items-center justify-center gap-4 transition-all duration-500 group-hover:border-[#6c63ff]/60 group-hover:shadow-[0_0_40px_rgba(108,99,255,0.15)] overflow-hidden">
-              <User size={64} className="text-[#6c63ff]/20 group-hover:text-[#6c63ff]/40 transition-colors" />
-              <p className="text-[#555] font-medium text-sm group-hover:text-[#a0a0a0] transition-colors">Photo coming soon</p>
+            {/* Profile Photo */}
+            <div className="w-[320px] h-[420px] bg-[#111] border border-white/10 rounded-[2rem] flex flex-col items-center justify-center gap-4 transition-all duration-500 group-hover:border-[#6c63ff]/60 group-hover:shadow-[0_0_40px_rgba(108,99,255,0.15)] overflow-hidden relative">
+              <Image 
+                src="/images/profile.jpg" 
+                alt="Khiter Hamza" 
+                fill 
+                className="object-cover scale-110"
+                sizes="(max-width: 768px) 100vw, 320px"
+              />
               
               {/* Decorative elements */}
-              <div className="absolute top-4 right-4 w-8 h-8 border-t-2 border-r-2 border-[#6c63ff]/20 rounded-tr-xl" />
-              <div className="absolute bottom-4 left-4 w-8 h-8 border-b-2 border-l-2 border-[#6c63ff]/20 rounded-bl-xl" />
+              <div className="absolute top-4 right-4 w-8 h-8 border-t-2 border-r-2 border-white/40 rounded-tr-xl z-10" />
+              <div className="absolute bottom-4 left-4 w-8 h-8 border-b-2 border-l-2 border-white/40 rounded-bl-xl z-10" />
             </div>
             
             {/* Background glow */}

@@ -18,8 +18,8 @@ export default function Footer() {
         {/* Row 1: Logo & Nav */}
         <div className="flex flex-col md:flex-row items-center justify-between gap-8">
           <a href="#" className="text-xl font-bold group relative">
-            <span className="text-[#6c63ff]">Mester</span>
-            <span className="text-white ml-1">KH✦</span>
+            <span className="text-[#6c63ff]">Khiter</span>
+            <span className="text-white ml-1">Hamza✦</span>
           </a>
 
           <div className="flex items-center gap-6 md:gap-10">

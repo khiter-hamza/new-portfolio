@@ -30,8 +30,8 @@ export default function Navbar() {
       >
         <div className="max-w-7xl mx-auto flex items-center justify-between">
           <a href="#" className="text-xl font-bold group relative">
-            <span className="text-[#6c63ff]">Mester</span>
-            <span className="text-white ml-1">KH✦</span>
+            <span className="text-[#6c63ff]">Khiter</span>
+            <span className="text-white ml-1">Hamza✦</span>
             <span className="absolute -bottom-1 left-0 w-0 h-[2px] bg-[#6c63ff] transition-all duration-300 group-hover:w-full" />
           </a>
 
