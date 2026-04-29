@@ -2,9 +2,9 @@ export const siteConfig = {
   name: 'Khiter Hamza',
   title: 'Full-Stack Developer',
   tagline: 'I build systems that work, scale, and think.',
-  email: 'contact@khiterhamza.com',
-  github: 'https://github.com/khiterhamza',
-  linkedin: 'https://linkedin.com/in/khiterhamza',
+  email: 'oh_khiter@esi.dz',
+  github: 'https://github.com/khiter-hamza',
+  linkedin: 'https://www.linkedin.com/in/hamza-khiter-b2ba98284/',
 };
 
 export const navLinks = [
@@ -109,8 +109,8 @@ export const techStack = [
 ];
 
 export const socialLinks = [
-  { name: 'Email', icon: 'Mail', label: 'EMAIL', color: '#f97316', bg: 'rgba(249,115,22,0.15)', href: 'mailto:contact@khiterhamza.com' },
+  { name: 'Email', icon: 'Mail', label: 'EMAIL', color: '#f97316', bg: 'rgba(249,115,22,0.15)', href: 'mailto:oh_khiter@esi.dz' },
   { name: 'Chat', icon: 'MessageCircle', label: 'CHAT', color: '#10b981', bg: 'rgba(16,185,129,0.15)', href: '#' },
-  { name: 'LinkedIn', icon: 'Linkedin', label: 'LINKEDIN', color: '#3b82f6', bg: 'rgba(59,130,246,0.15)', href: 'https://linkedin.com/in/khiterhamza' },
-  { name: 'GitHub', icon: 'Github', label: 'GITHUB', color: '#6c63ff', bg: 'rgba(108,99,255,0.15)', href: 'https://github.com/khiterhamza' },
+  { name: 'LinkedIn', icon: 'Linkedin', label: 'LINKEDIN', color: '#3b82f6', bg: 'rgba(59,130,246,0.15)', href: 'https://www.linkedin.com/in/hamza-khiter-b2ba98284' },
+  { name: 'GitHub', icon: 'Github', label: 'GITHUB', color: '#6c63ff', bg: 'rgba(108,99,255,0.15)', href: 'https://github.com/khiter-hamza' },
 ];
